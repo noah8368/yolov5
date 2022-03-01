@@ -1,0 +1,10 @@
+# Use the following definitions to run training locally.
+train: ../partial_dataset/images/train
+val: ../partial_dataset/images/validate
+test: ../partial_dataset/images/test
+
+# number of classes
+nc: 1
+
+# class names
+names: ['galaxy']

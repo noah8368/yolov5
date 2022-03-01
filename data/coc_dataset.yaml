@@ -1,0 +1,10 @@
+# Use the following definitions to run training locally.
+train: ../coc_dataset/images/train
+val: ../coc_dataset/images/validate
+test: ../coc_dataset/images/test
+
+# number of classes
+nc: 1
+
+# class names
+names: ['galaxy']
